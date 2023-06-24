@@ -1,0 +1,40 @@
+Recommended resources:
+
+"Hands-On Machine Learning with Scikit-Learn and TensorFlow" by Aurélien Géron
+"Machine Learning Yearning" by Andrew Ng
+Online courses on platforms like Coursera, edX, and Udemy
+
+#IBM Cloud: IBM Cloud, its services, and how to deploy applications on the platform, documentation, tutorials, and examples 
+
+Recommended resources:
+
+IBM Cloud documentation: https://cloud.ibm.com/docs
+
+
+#Flask web app: Flask web application that allows users to interact with the phishing detection model, user interface for entering URLs and receiving predictions on whether they are phishing websites. Flask and HTML/CSS for developing the frontend, and Python for the backend logic
+
+Recommended resources:
+
+Flask documentation: https://flask.palletsprojects.com/
+HTML/CSS tutorials: W3Schools (https://www.w3schools.com/html/)
+
+#CLI application: command-line interface (CLI) application that allows users to make API calls to the trained model hosted on IBM Cloud. CLI application should accept URLs as input, make requests to the model's API, and display the predictions or results
+
+Recommended resources:
+
+Python argparse library for building command-line interfaces: https://docs.python.org/3/library/argparse.html
+
+#Train a phishing detection model: IBM Auto AI and the scikit-learn library to analyze and benchmark a variety of machine learning algorithms for phishing URL detection.
+
+Recommended resources:
+
+IBM Auto AI documentation: https://cloud.ibm.com/docs/services/assistant?topic=assistant-automl
+scikit-learn documentation: https://scikit-learn.org/stable/
+
+#Host the trained model on IBM Cloud: after training the model, deploy it on IBM Cloud using the appropriate service (e.g., Watson Machine Learning). expose the model as an API endpoint that can be accessed by the web app and CLI application
+
+Recommended resources:
+
+IBM Watson Machine Learning documentation: https://cloud.ibm.com/docs/watson-machine-learning?topic=watson-machine-learning-getting-started
+
+#Combine the components: Integrate the trained model into both the Flask web app and the CLI application. Make API calls to the hosted model, pass the URL inputs, and retrieve the predictions. Display the results to the users in a user-friendly manner.
